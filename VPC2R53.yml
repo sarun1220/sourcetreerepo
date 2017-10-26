@@ -157,7 +157,7 @@ Resources:
      HostedZoneName: myrama.net.
      Comment: Zone apex alias targeted to  LoadBalancer.
      RecordSets:
-     - Name: test.myrama.net.
+     - Name: prod.myrama.net.
        Type: A
        AliasTarget:
          HostedZoneId: !GetAtt LoadBalancer.CanonicalHostedZoneNameID
